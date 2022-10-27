@@ -1,0 +1,953 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Index</title>
+</head>
+<body>
+    <div class="contenedor">
+        <ul class="pantallas">
+            <li class="pantalla pantalla1">
+                <div class="pantalla_contenido">
+                    <div class="pantalla__header">
+                        <div class="pantalla__header-titulo">
+                            <p>PLANETAS</p>
+                        </div>
+                        <div class="lista-planetas">
+                            <ul>
+                                <li>
+                                    <a class="activo mercurio" onclick="mercurio()">MERCURIO</a>
+                                </li>
+                                <li>
+                                    <a class="venus" onclick="venus()">VENUS</a>
+                                </li>
+                                <li>
+                                    <a class="tierra" onclick="tierra()">TIERRA</a>
+                                </li>
+                                <li>
+                                    <a class="marte" onclick="marte()">MARTE</a>
+                                </li>
+                                <li>
+                                    <a class="jupiter" onclick="jupiter()">JUPITER</a>
+                                </li>
+                                <li>
+                                    <a class="saturno" onclick="saturno()">SATURNO</a>
+                                </li>
+                                <li>
+                                    <a class="urano" onclick="urano()">URANO</a>
+                                </li>
+                                <li>
+                                    <a class="neptuno" onclick="neptuno()">NEPTUNO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral">
+                        <div class="menu-lateral__header">
+                            <p>PLANETA MERCURIO</p>
+
+                        </div>
+                        <div class="menu-lateral__cuerpo">
+                            <ul>
+                                <li>
+                                    <a>VISION GENERAL</a>
+                                </li>
+                                <li>
+                                    <a>ESTRUCTURA INTERNA</a>
+                                </li>
+                                <li>
+                                    <a>GEOLOGÍA DE LA SUPERFICIE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img style="position: absolute;" src="https://i.ibb.co/QHFjkg0/planeta-con-aro-en-el-espacio-2560x1376-xtrafondos-com.jpg" alt="planeta-con-aro-en-el-espacio-2560x1376-xtrafondos-com" border="0">
+
+                </div>
+                <div class="pantalla_footer">
+                    <div class="bloque_caracteristicas">
+                        <h4>composición </h4>
+                        <p style="font-size: 130%">70% Elementos metálicos 30% Elementos silicatos</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Masa</h4>
+                        <p>3.3010 x 1023 kg</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Densidad</h4>
+                        <p>5.427 g/cm^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Volumen</h4>
+                        <p>60,827,208,742 km^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Temperatura mínima/máxima</h4>
+                        <p>-173°/427° centígrados</p>
+                    </div>
+                </div>
+            </li>
+            <li class="pantalla pantalla2">
+                <div class="pantalla_contenido">
+                    <div class="pantalla__header">
+                        <div class="pantalla__header-titulo">
+                            <p>PLANETAS</p>
+                        </div>
+                        <div class="lista-planetas">
+                            <ul>
+                                <li>
+                                    <a class="mercurio" onclick="mercurio()">MERCURIO</a>
+                                </li>
+                                <li>
+                                    <a class="activo venus" onclick="venus()">VENUS</a>
+                                </li>
+                                <li>
+                                    <a class="tierra" onclick="tierra()">TIERRA</a>
+                                </li>
+                                <li>
+                                    <a class="marte" onclick="marte()">MARTE</a>
+                                </li>
+                                <li>
+                                    <a class="jupiter" onclick="jupiter()">JUPITER</a>
+                                </li>
+                                <li>
+                                    <a class="saturno" onclick="saturno()">SATURNO</a>
+                                </li>
+                                <li>
+                                    <a class="urano" onclick="urano()">URANO</a>
+                                </li>
+                                <li>
+                                    <a class="neptuno" onclick="neptuno()">NEPTUNO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral">
+                        <div class="menu-lateral__header">
+                            <p>PLANETA VENUS</p>
+
+                        </div>
+                        <div class="menu-lateral__cuerpo">
+                            <ul>
+                                <li>
+                                    <a>OVERVIEW</a>
+                                </li>
+                                <li>
+                                    <a>ESTRUCTURA INTERNA</a>
+                                </li>
+                                <li>
+                                    <a>SURFACE GEOLOGY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pantalla_footer">
+                    <div class="bloque_caracteristicas">
+                        <h4>Diámetro</h4>
+                        <p>12,104 kilómetros</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Masa</h4>
+                        <p>4.8673 x 10^24 kg</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Densidad</h4>
+                        <p>5.243 g/cm3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Volumen</h4>
+                        <p>928,415,345,893 km3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Temperatura superficial</h4>
+                        <p>462° centígrados</p>
+                    </div>
+                </div>
+            </li>
+            <li class="pantalla pantalla3">
+                <div class="pantalla_contenido">
+                    <div class="pantalla__header">
+                        <div class="pantalla__header-titulo">
+                            <p>PLANETAS</p>
+                        </div>
+                        <div class="lista-planetas">
+                            <ul>
+                                <li>
+                                    <a class="mercurio" onclick="mercurio()">MERCURIO</a>
+                                </li>
+                                <li>
+                                    <a class="venus" onclick="venus()">VENUS</a>
+                                </li>
+                                <li>
+                                    <a class="activo tierra" onclick="tierra()">TIERRA</a>
+                                </li>
+                                <li>
+                                    <a class="marte" onclick="marte()">MARTE</a>
+                                </li>
+                                <li>
+                                    <a class="jupiter" onclick="jupiter()">JUPITER</a>
+                                </li>
+                                <li>
+                                    <a class="saturno" onclick="saturno()">SATURNO</a>
+                                </li>
+                                <li>
+                                    <a class="urano" onclick="urano()">URANO</a>
+                                </li>
+                                <li>
+                                    <a class="neptuno" onclick="neptuno()">NEPTUNO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral">
+                        <div class="menu-lateral__header">
+                            <p>PLANETA TIERRA</p>
+
+                        </div>
+                        <div class="menu-lateral__cuerpo">
+                            <ul>
+                                <li>
+                                    <a>OVERVIEW</a>
+                                </li>
+                                <li>
+                                    <a>ESTRUCTURA INTERNA</a>
+                                </li>
+                                <li>
+                                    <a>SURFACE GEOLOGY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pantalla_footer">
+                    <div class="bloque_caracteristicas">
+                        <h4>Diámetro</h4>
+                        <p>12,756 km</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Masa</h4>
+                        <p>5.9722 x 10^24 kg</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Densidad</h4>
+                        <p>5.513 g/cm^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Volumen</h4>
+                        <p>1,083,206,916,846 km^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Temperatura mínima/máxima</h4>
+                        <p>-88°/58° centígrados</p>
+                    </div>
+                </div>
+            </li>
+            <li class="pantalla pantalla4">
+                <div class="pantalla_contenido">
+                    <div class="pantalla__header">
+                        <div class="pantalla__header-titulo">
+                            <p>PLANETAS</p>
+                        </div>
+                        <div class="lista-planetas">
+                            <ul>
+                                <li>
+                                    <a class="mercurio" onclick="mercurio()">MERCURIO</a>
+                                </li>
+                                <li>
+                                    <a class="venus" onclick="venus()">VENUS</a>
+                                </li>
+                                <li>
+                                    <a class="tierra" onclick="tierra()">TIERRA</a>
+                                </li>
+                                <li>
+                                    <a class="activo marte" onclick="marte()">MARTE</a>
+                                </li>
+                                <li>
+                                    <a class="jupiter" onclick="jupiter()">JUPITER</a>
+                                </li>
+                                <li>
+                                    <a class="saturno" onclick="saturno()">SATURNO</a>
+                                </li>
+                                <li>
+                                    <a class="urano" onclick="urano()">URANO</a>
+                                </li>
+                                <li>
+                                    <a class="neptuno" onclick="neptuno()">NEPTUNO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral">
+                        <div class="menu-lateral__header">
+                            <p>PLANETA MARTE</p>
+
+                        </div>
+                        <div class="menu-lateral__cuerpo">
+                            <ul>
+                                <li>
+                                    <a>OVERVIEW</a>
+                                </li>
+                                <li>
+                                    <a>ESTRUCTURA INTERNA</a>
+                                </li>
+                                <li>
+                                    <a>SURFACE GEOLOGY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pantalla_footer">
+                    <div class="bloque_caracteristicas">
+                        <h4>Diámetro</h4>
+                        <p>6,792 km</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Masa</h4>
+                        <p>6.4169 x 10^23 kg</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Densidad</h4>
+                        <p>3.934 g/cm^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Volumen</h4>
+                        <p>1.63116 X 10^11 km^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Temperatura promedio</h4>
+                        <p>-62 grados Celsius</p>
+                    </div>
+                </div>
+            </li>
+            <li class="pantalla pantalla5">
+                <div class="pantalla_contenido">
+                    <div class="pantalla__header">
+                        <div class="pantalla__header-titulo">
+                            <p>PLANETAS</p>
+                        </div>
+                        <div class="lista-planetas">
+                            <ul>
+                                <li>
+                                    <a class="mercurio" onclick="mercurio()">MERCURIO</a>
+                                </li>
+                                <li>
+                                    <a class="venus" onclick="venus()">VENUS</a>
+                                </li>
+                                <li>
+                                    <a class="tierra" onclick="tierra()">TIERRA</a>
+                                </li>
+                                <li>
+                                    <a class="marte" onclick="marte()">MARTE</a>
+                                </li>
+                                <li>
+                                    <a class="activo jupiter" onclick="jupiter()">JUPITER</a>
+                                </li>
+                                <li>
+                                    <a class="saturno" onclick="saturno()">SATURNO</a>
+                                </li>
+                                <li>
+                                    <a class="urano" onclick="urano()">URANO</a>
+                                </li>
+                                <li>
+                                    <a class="neptuno" onclick="neptuno()">NEPTUNO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral">
+                        <div class="menu-lateral__header">
+                            <p>PLANETA JUPITER</p>
+
+                        </div>
+                        <div class="menu-lateral__cuerpo">
+                            <ul>
+                                <li>
+                                    <a>OVERVIEW</a>
+                                </li>
+                                <li>
+                                    <a>ESTRUCTURA INTERNA</a>
+                                </li>
+                                <li>
+                                    <a>SURFACE GEOLOGY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pantalla_footer">
+                    <div class="bloque_caracteristicas">
+                        <h4>Diámetro</h4>
+                        <p>142,800 km</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Masa</h4>
+                        <p>1.8981 x 10^27 kg</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Densidad</h4>
+                        <p>1.326 g/cm^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Volumen</h4>
+                        <p>1.43128 x 10^15 km^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Temperatura efectiva</h4>
+                        <p>-148 °C</p>
+                    </div>
+                </div>
+            </li>
+            <li class="pantalla pantalla6">
+                <div class="pantalla_contenido">
+                    <div class="pantalla__header">
+                        <div class="pantalla__header-titulo">
+                            <p>PLANETAS</p>
+                        </div>
+                        <div class="lista-planetas">
+                            <ul>
+                                <li>
+                                    <a class="mercurio" onclick="mercurio()">MERCURIO</a>
+                                </li>
+                                <li>
+                                    <a class="venus" onclick="venus()">VENUS</a>
+                                </li>
+                                <li>
+                                    <a class="tierra" onclick="tierra()">TIERRA</a>
+                                </li>
+                                <li>
+                                    <a class="marte" onclick="marte()">MARTE</a>
+                                </li>
+                                <li>
+                                    <a class="jupiter" onclick="jupiter()">JUPITER</a>
+                                </li>
+                                <li>
+                                    <a class="activo saturno" onclick="saturno()">SATURNO</a>
+                                </li>
+                                <li>
+                                    <a class="urano" onclick="urano()">URANO</a>
+                                </li>
+                                <li>
+                                    <a class="neptuno" onclick="neptuno()">NEPTUNO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral">
+                        <div class="menu-lateral__header">
+                            <p>PLANETA SATURNO</p>
+
+                        </div>
+                        <div class="menu-lateral__cuerpo">
+                            <ul>
+                                <li>
+                                    <a>OVERVIEW</a>
+                                </li>
+                                <li>
+                                    <a>ESTRUCTURA INTERNA</a>
+                                </li>
+                                <li>
+                                    <a>SURFACE GEOLOGY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pantalla_footer">
+                    <div class="bloque_caracteristicas">
+                        <h4>Diámetro</h4>
+                        <p>120, 660 km</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Masa</h4>
+                        <p>5.6832 x 10^26 kg</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Densidad</h4>
+                        <p>0.687 g/cm^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Volumen</h4>
+                        <p>8.2713 x 10^14 km^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Temperatura efectiva</h4>
+                        <p>-178° Celsius</p>
+                    </div>
+                </div>
+            </li>
+            <li class="pantalla pantalla7">
+                <div class="pantalla_contenido">
+                    <div class="pantalla__header">
+                        <div class="pantalla__header-titulo">
+                            <p>PLANETAS</p>
+                        </div>
+                        <div class="lista-planetas">
+                            <ul>
+                                <li>
+                                    <a class="mercurio" onclick="mercurio()">MERCURIO</a>
+                                </li>
+                                <li>
+                                    <a class="venus" onclick="venus()">VENUS</a>
+                                </li>
+                                <li>
+                                    <a class="tierra" onclick="tierra()">TIERRA</a>
+                                </li>
+                                <li>
+                                    <a class="marte" onclick="marte()">MARTE</a>
+                                </li>
+                                <li>
+                                    <a class="jupiter" onclick="jupiter()">JUPITER</a>
+                                </li>
+                                <li>
+                                    <a class="saturno" onclick="saturno()">SATURNO</a>
+                                </li>
+                                <li>
+                                    <a class="activo urano" onclick="urano()">URANO</a>
+                                </li>
+                                <li>
+                                    <a class="neptuno" onclick="neptuno()">NEPTUNO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral">
+                        <div class="menu-lateral__header">
+                            <p>PLANETA URANO</p>
+
+                        </div>
+                        <div class="menu-lateral__cuerpo">
+                            <ul>
+                                <li>
+                                    <a>OVERVIEW</a>
+                                </li>
+                                <li>
+                                    <a>ESTRUCTURA INTERNA</a>
+                                </li>
+                                <li>
+                                    <a>SURFACE GEOLOGY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pantalla_footer">
+                    <div class="bloque_caracteristicas">
+                        <h4>Diámetro</h4>
+                        <p>51.118 km</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Masa</h4>
+                        <p>8.6810 x 10^25 kg</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Densidad</h4>
+                        <p>1.270 g/cm^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Volumen</h4>
+                        <p>6.83344 x 10^13 km^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Temperatura efectiva</h4>
+                        <p>-216° centígrados</p>
+                    </div>
+                </div>
+            </li>
+            <li class="pantalla pantalla8">
+                <div class="pantalla_contenido">
+                    <div class="pantalla__header">
+                        <div class="pantalla__header-titulo">
+                            <p>PLANETAS</p>
+                        </div>
+                        <div class="lista-planetas">
+                            <ul>
+                                <li>
+                                    <a class="mercurio" onclick="mercurio()">MERCURIO</a>
+                                </li>
+                                <li>
+                                    <a class="venus" onclick="venus()">VENUS</a>
+                                </li>
+                                <li>
+                                    <a class="tierra" onclick="tierra()">TIERRA</a>
+                                </li>
+                                <li>
+                                    <a class="marte" onclick="marte()">MARTE</a>
+                                </li>
+                                <li>
+                                    <a class="jupiter" onclick="jupiter()">JUPITER</a>
+                                </li>
+                                <li>
+                                    <a class="saturno" onclick="saturno()">SATURNO</a>
+                                </li>
+                                <li>
+                                    <a class="urano" onclick="urano()">URANO</a>
+                                </li>
+                                <li>
+                                    <a class="activo neptuno" onclick="neptuno()">NEPTUNO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral">
+                        <div class="menu-lateral__header">
+                            <p>PLANETA NEPTUNO</p>
+
+                        </div>
+                        <div class="menu-lateral__cuerpo">
+                            <ul>
+                                <li>
+                                    <a>OVERVIEW</a>
+                                </li>
+                                <li>
+                                    <a>ESTRUCTURA INTERNA</a>
+                                </li>
+                                <li>
+                                    <a>SURFACE GEOLOGY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pantalla_footer">
+                    <div class="bloque_caracteristicas">
+                        <h4>Diámetro</h4>
+                        @*<p>49,528 km</p>*@
+                        <p id="neptuno_diam"></p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Masa</h4>
+                        <p>1.0241 x 10^26 kg</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Densidad</h4>
+                        <p>1.638 g/cm^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Volumen</h4>
+                        <p>6.25257 x 10^13 km^3</p>
+                    </div>
+                    <div class="bloque_caracteristicas">
+                        <h4>Temperatura efectiva</h4>
+                        <p>-214 °C</p>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <style>
+        .contenedor {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+            .contenedor .pantallas {
+                display: flex;
+                padding: 0;
+            }
+
+
+        li.pantalla {
+            width: 100vw;
+            height: 100vh;
+            list-style: none;
+            background: rgb(0, 0, 0,0.9);
+            animation: mov 25s infinite;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 110%;
+            transition: 1s;
+        }
+
+        li.pantalla1 img { /*Mercurio*/
+            width: 100vw;
+            height: 100vh;
+        }
+
+        li.pantalla2 { /*Venus*/
+            background-image: url('../../imagenes/venus.jpg');
+        }
+
+        li.pantalla3 { /*Tierra*/
+            background-image: url(../../Imagenes/la-tierra_2560x1440_xtrafondos.com.jpg);
+        }
+
+        li.pantalla4 { /*Marte*/
+            background-image: url(../../Imagenes/marte_3840x2400_xtrafondos.com.jpg);
+        }
+
+        li.pantalla5 { /*Jupiter*/
+            background-image: url('../../imagenes/jupiter.jpg');
+        }
+
+        li.pantalla6 { /*Saturno*/
+            background-image: url('../../imagenes/saturno.jpg');
+        }
+
+        li.pantalla7 { /*Urano*/
+            background-image: url('../../imagenes/urano.jpg');
+        }
+
+        li.pantalla8 { /*Neptuno*/
+            background-image: url('../../imagenes/neptuno.jpg');
+        }
+
+        .pantalla_contenido {
+            width: 100%;
+            height: 85%;
+            display: flex;
+        }
+
+        .pantalla__header {
+            background: rgb(0, 0, 0,0.4);
+            width: 90vw;
+            height: 60px;
+            float: left;
+        }
+
+        .pantalla__header-titulo {
+            float: left;
+            height: 100%;
+            display: flex;
+        }
+
+            .pantalla__header-titulo p {
+                margin: auto 0;
+            }
+
+        .lista-planetas {
+            float: right;
+            height: 100%;
+        }
+
+            .lista-planetas ul {
+                display: flex;
+                padding: 0;
+                height: 100%;
+            }
+
+                .lista-planetas ul li {
+                    margin: auto 10px;
+                    padding: 10px;
+                    list-style: none;
+                }
+
+                    .lista-planetas ul li:hover {
+                    }
+
+                    .lista-planetas ul li a {
+                        text-decoration: none;
+                    }
+
+
+                    .lista-planetas ul li a {
+                        font-size: 18px;
+                        color: #e1e1e1;
+                        font-family: inherit;
+                        font-weight: 800;
+                        cursor: pointer;
+                        position: relative;
+                        border: none;
+                        background: none;
+                        text-transform: uppercase;
+                        transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+                        transition-duration: 400ms;
+                        transition-property: color;
+                    }
+
+                        .lista-planetas ul li a:focus,
+                        .lista-planetas ul li a:hover {
+                            color: #fff;
+                        }
+
+                            .lista-planetas ul li a:focus:after,
+                            .lista-planetas ul li a:hover:after {
+                                width: 100%;
+                                left: 0%;
+                            }
+
+                        .lista-planetas ul li a:after {
+                            content: "";
+                            pointer-events: none;
+                            bottom: -2px;
+                            left: 50%;
+                            position: absolute;
+                            width: 0%;
+                            height: 2px;
+                            background-color: #fff;
+                            transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+                            transition-duration: 400ms;
+                            transition-property: width, left;
+                        }
+
+        .activo {
+            color: aqua !important;
+        }
+
+
+        .menu-lateral {
+            width: 300px;
+            height: 500px;
+            margin-left: auto;
+        }
+
+        .menu-lateral__header {
+            background: rgb(0, 0, 0,0.4);
+            width: 100%;
+            height: 130px;
+            display: flex;
+            padding-left: 30px;
+        }
+
+            .menu-lateral__header p {
+                margin: auto;
+                font-size: 225%;
+                color: white;
+            }
+
+        .menu-lateral__cuerpo {
+            width: 80%;
+            height: 360px;
+            margin-left: auto;
+        }
+
+            .menu-lateral__cuerpo ul {
+                display: block;
+                width: 100%;
+                margin-right: 100px;
+                padding: 0;
+            }
+
+                .menu-lateral__cuerpo ul li {
+                    background: rgb(128, 128, 128,0.4);
+                    border: 1px solid white;
+                    padding: 10px;
+                    margin: 30px 0;
+                    cursor: pointer;
+                }
+
+                    .menu-lateral__cuerpo ul li a {
+                        color: white;
+                        text-decoration: none;
+                    }
+
+        .pantalla_footer {
+            background: transparent;
+            height: 15%;
+            bottom: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            padding-inline: 50px
+        }
+
+        .bloque_caracteristicas {
+            width: 260px;
+            height: 120px;
+            border: 2px solid white;
+            padding: 5px 10px;
+        }
+
+            .bloque_caracteristicas h4 {
+                color: rgb(255, 255, 255,0.6);
+            }
+
+            .bloque_caracteristicas p {
+                color: white;
+                font-size: 130%;
+            }
+
+        .flecha-siguiente {
+            background: grey;
+            width: 70px;
+            height: 50px;
+            margin-left: auto;
+        }
+
+    </style>
+</body>
+</html>
+
+<script type="text/javascript">
+    var name = ""
+
+    //var welcome7 = Welcome7.FromJson(jsonString);
+    let estado_inicial = 0
+    let estado_final = 0
+
+    $(document).ready(function () {
+
+    })
+
+    function mercurio() {
+
+        estado_final = 0
+        Desplazar()
+
+    }
+    function venus() {
+        estado_final = 1
+        Desplazar()
+    }
+    function tierra() {
+        estado_final = 2
+        Desplazar()
+    }
+    function marte() {
+        estado_final = 3
+        Desplazar()
+    }
+    function jupiter() {
+        estado_final = 4
+        Desplazar()
+    }
+    function saturno() {
+        estado_final = 5
+        Desplazar()
+    }
+    function urano() {
+        estado_final = 6
+        Desplazar()
+    }
+    function neptuno() {
+        name = "Neptune"
+        estado_final = 7
+
+
+        $.ajax({
+            method: 'GET',
+            url: 'https://api.api-ninjas.com/v1/planets?name=' + name,
+            headers: { 'X-Api-Key': 'Tm3aDp/2K/KLFFJJNyoA5A==PpcI0wYswWew3JFb' },
+            contentType: 'application/json',
+            success: function (result) {
+                console.log(result);
+                $('#neptuno_diam').text(result.name)
+            },
+            error: function ajaxError(jqXHR) {
+                console.error('Error: ', jqXHR.responseText);
+            }
+        });
+
+        Desplazar()
+    }
+
+    function Desplazar() {
+
+        $('.pantallas').animate({
+            'margin-left': `-${estado_final}00%`
+        }, 1000)
+        estado_inicial = estado_final
+    }
+</script>
